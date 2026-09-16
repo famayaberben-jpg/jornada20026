@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Registro de Jornada",
+    "slug": "registro-jornada-2026",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "sdkVersion": "50.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.famayaberben.registrojornada2026"
+    },
+    "android": {
+      "package": "com.famayaberben.registrojornada2026"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
