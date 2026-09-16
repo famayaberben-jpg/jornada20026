@@ -9,8 +9,8 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
-import { useJornada } from '../context/JornadaContext';
-import { isValidFecha, isValidHoras } from '../utils/calculators';
+import { useJornada } from './JornadaContext';
+import { isValidFecha, isValidHoras } from './calculators';
 
 export default function AgregarJornadaScreen({ navigation, route }) {
   const { addJornada, updateJornada } = useJornada();

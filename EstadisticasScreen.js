@@ -1,14 +1,14 @@
 import React, { useState, useMemo } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
-import { useJornada } from '../context/JornadaContext';
-import { Card, StatCard } from '../components/CommonComponents';
+import { useJornada } from './JornadaContext';
+import { Card, StatCard } from './CommonComponents';
 import {
   calculateAnnualHours,
   calculateAverageHoursPerJornada,
   calculateHoursByMonth,
   getMonthlyBreakdown,
   getCurrentMonthYear,
-} from '../utils/calculators';
+} from './calculators';
 
 const NOMBRES_MES = [
   'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun',

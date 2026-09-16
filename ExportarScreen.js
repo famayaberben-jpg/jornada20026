@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Alert, ActivityIndicator } from 'react-native';
-import { exportToExcel } from '../services/ExcelService';
+import { exportToExcel } from './ExcelService';
 
 export default function ExportarScreen() {
   const [exporting, setExporting] = useState(false);

@@ -4,12 +4,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import { JornadaProvider } from './src/context/JornadaContext';
-import HomeScreen from './src/screens/HomeScreen';
-import HistorialScreen from './src/screens/HistorialScreen';
-import EstadisticasScreen from './src/screens/EstadisticasScreen';
-import ExportarScreen from './src/screens/ExportarScreen';
-import AgregarJornadaScreen from './src/screens/AgregarJornadaScreen';
+import { JornadaProvider } from './JornadaContext';
+import HomeScreen from './HomeScreen';
+import HistorialScreen from './HistorialScreen';
+import EstadisticasScreen from './EstadisticasScreen';
+import ExportarScreen from './ExportarScreen';
+import AgregarJornadaScreen from './AgregarJornadaScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
